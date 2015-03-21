@@ -25,7 +25,7 @@ Having R installed in order to execute function properely following steps should
 
 4. Run the code.
 
-Successful execution of function should result in appearance of the TidyData.txt file in your working directory. You can read it in R by using read.table function with header=TRUE.
+Successful execution of the function should result in appearance of the TidyData.txt file in your working directory. You can read it into R by using read.table function with header=TRUE.
 
 ##What exactly run_analysis code does
 
