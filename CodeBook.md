@@ -92,45 +92,4 @@ Integer variable, with values raging from 1 to 6.
 ###Other Variables
 Other variables include means for sensor readings.
 
-These are numeric variables, summary of values has been provided below
-
-tBodyAccmeanX
-Min.   :0.2216
-1st Qu.:0.2712
-Median :0.2770
-Mean   :0.2743
-3rd Qu.:0.2800
-Max.   :0.3015
-
-tBodyAccmeanY
-Min.   :-0.040514
-1st Qu.:-0.020022
-Median :-0.017262
-Mean   :-0.017876
-3rd Qu.:-0.014936
-Max.   :-0.001308
-
-tBodyAccmeanZ
-Min.   :-0.15251
-1st Qu.:-0.11207
-Median :-0.10819
-Mean   :-0.10916
-3rd Qu.:-0.10443
-Max.   :-0.07538
-
-tGravityAccmeanX
-Min.   :-0.6800
-1st Qu.: 0.8376
-Median : 0.9208
-Mean   : 0.6975
-3rd Qu.: 0.9425
-Max.   : 0.9745
-
-tGravityAccmeanY
-Min.   :-0.47989
-1st Qu.:-0.23319
-Median :-0.12782
-Mean   :-0.01621
-3rd Qu.: 0.08773
-Max.   : 0.95659
-
+These are numeric variables.
