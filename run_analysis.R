@@ -49,10 +49,11 @@ DataFrame=merge(DataFrame, ActivLabels, by.x="activityCode", by.y="V1")
 #loads dplyr library that will be used to summarise data
 library(dplyr)
 
-#creates final data frame (called "final") in which data is grouped by activity, subject, means for
+#creates final data frame (called "Final") in which data is grouped by activity, subject, means for
 #other variables are calculated
 Final<-DataFrame %>% group_by(activity,subject) %>% summarise_each(funs(mean))
 
+#saves "Final" data frame into txt file in the working directory
 write.table(Final, file="TidyData.txt", row.name=FALSE)
 
 }
