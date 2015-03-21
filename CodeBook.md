@@ -178,34 +178,169 @@ These are numeric variables, summary has been provided below
  Mean   :-0.5654   Mean   :-0.73596   Mean   :-0.6916   Mean   :-0.6533   Mean   :-0.6164  
  3rd Qu.:-0.1483   3rd Qu.:-0.51212   3rd Qu.:-0.4414   3rd Qu.:-0.4196   3rd Qu.:-0.3106  
  Max.   : 0.3553   Max.   : 0.03102   Max.   : 0.2677   Max.   : 0.4765   Max.   : 0.5649  
- tBodyGyroJerkstdX tBodyGyroJerkstdY tBodyGyroJerkstdZ tBodyAccMagstd    tGravityAccMagstd
- Min.   :-0.9965   Min.   :-0.9971   Min.   :-0.9954   Min.   :-0.9865   Min.   :-0.9865  
- 1st Qu.:-0.9800   1st Qu.:-0.9832   1st Qu.:-0.9848   1st Qu.:-0.9430   1st Qu.:-0.9430  
- Median :-0.8396   Median :-0.8942   Median :-0.8610   Median :-0.6074   Median :-0.6074  
- Mean   :-0.7036   Mean   :-0.7636   Mean   :-0.7096   Mean   :-0.5439   Mean   :-0.5439  
- 3rd Qu.:-0.4629   3rd Qu.:-0.5861   3rd Qu.:-0.4741   3rd Qu.:-0.2090   3rd Qu.:-0.2090  
- Max.   : 0.1791   Max.   : 0.2959   Max.   : 0.1932   Max.   : 0.4284   Max.   : 0.4284  
- tBodyAccJerkMagstd tBodyGyroMagstd   tBodyGyroJerkMagstd  fBodyAccstdX      fBodyAccstdY     
- Min.   :-0.9946    Min.   :-0.9814   Min.   :-0.9977     Min.   :-0.9966   Min.   :-0.99068  
- 1st Qu.:-0.9765    1st Qu.:-0.9476   1st Qu.:-0.9805     1st Qu.:-0.9820   1st Qu.:-0.94042  
- Median :-0.8014    Median :-0.7420   Median :-0.8809     Median :-0.7470   Median :-0.51338  
- Mean   :-0.5842    Mean   :-0.6304   Mean   :-0.7550     Mean   :-0.5522   Mean   :-0.48148  
- 3rd Qu.:-0.2173    3rd Qu.:-0.3602   3rd Qu.:-0.5767     3rd Qu.:-0.1966   3rd Qu.:-0.07913  
- Max.   : 0.4506    Max.   : 0.3000   Max.   : 0.2502     Max.   : 0.6585   Max.   : 0.56019  
-  fBodyAccstdZ     fBodyAccJerkstdX  fBodyAccJerkstdY  fBodyAccJerkstdZ    fBodyGyrostdX    
- Min.   :-0.9872   Min.   :-0.9951   Min.   :-0.9905   Min.   :-0.993108   Min.   :-0.9947  
- 1st Qu.:-0.9459   1st Qu.:-0.9847   1st Qu.:-0.9737   1st Qu.:-0.983747   1st Qu.:-0.9750  
- Median :-0.6441   Median :-0.8254   Median :-0.7852   Median :-0.895121   Median :-0.8086  
- Mean   :-0.5824   Mean   :-0.6121   Mean   :-0.5707   Mean   :-0.756489   Mean   :-0.7110  
- 3rd Qu.:-0.2655   3rd Qu.:-0.2475   3rd Qu.:-0.1685   3rd Qu.:-0.543787   3rd Qu.:-0.4813  
- Max.   : 0.6871   Max.   : 0.4768   Max.   : 0.3498   Max.   :-0.006236   Max.   : 0.1966  
- fBodyGyrostdY     fBodyGyrostdZ     fBodyAccMagstd    fBodyBodyAccJerkMagstd fBodyBodyGyroMagstd
- Min.   :-0.9944   Min.   :-0.9867   Min.   :-0.9876   Min.   :-0.9944        Min.   :-0.9815    
- 1st Qu.:-0.9602   1st Qu.:-0.9643   1st Qu.:-0.9452   1st Qu.:-0.9752        1st Qu.:-0.9488    
- Median :-0.7964   Median :-0.8224   Median :-0.6513   Median :-0.8126        Median :-0.7727    
- Mean   :-0.6454   Mean   :-0.6577   Mean   :-0.6210   Mean   :-0.5992        Mean   :-0.6723    
- 3rd Qu.:-0.4154   3rd Qu.:-0.3916   3rd Qu.:-0.3654   3rd Qu.:-0.2668        3rd Qu.:-0.4277    
- Max.   : 0.6462   Max.   : 0.5225   Max.   : 0.1787   Max.   : 0.3163        Max.   : 0.2367    
+ 
+
+ tBodyGyroJerkstdX
+ Min.   :-0.9965
+ 1st Qu.:-0.9800
+ Median :-0.8396
+ Mean   :-0.7036
+ 3rd Qu.:-0.4629   
+ Max.   : 0.1791  
+ 
+ tBodyGyroJerkstdY
+ Min.   :-0.9971
+ 1st Qu.:-0.9832
+ Median :-0.8942
+ Mean   :-0.7636
+ 3rd Qu.:-0.5861
+ Max.   : 0.2959  
+ 
+ tBodyGyroJerkstdZ
+ Min.   :-0.9954
+ 1st Qu.:-0.9848
+ Median :-0.8610
+ Mean   :-0.7096
+ 3rd Qu.:-0.4741
+ Max.   : 0.1932   
+ 
+ tBodyAccMagstd
+ Min.   :-0.9865
+ 1st Qu.:-0.9430
+ Median :-0.6074 
+ Mean   :-0.5439
+ 3rd Qu.:-0.2090  
+ Max.   : 0.4284    
+ 
+ tGravityAccMagstd
+ Min.   :-0.9865
+ 1st Qu.:-0.9430 
+ Median :-0.6074  
+ Mean   :-0.5439
+ 3rd Qu.:-0.2090
+ Max.   : 0.4284 
+ 
+ tBodyAccJerkMagstd                
+ Min.   :-0.9946               
+ 1st Qu.:-0.9765                
+ Median :-0.8014                 
+ Mean   :-0.5842                
+ 3rd Qu.:-0.2173                
+ Max.   : 0.4506    
+ 
+ tBodyGyroMagstd
+ Min.   :-0.9814 
+ 1st Qu.:-0.9476
+ Median :-0.7420
+ Mean   :-0.6304
+ 3rd Qu.:-0.3602
+ Max.   : 0.3000
+ 
+ tBodyGyroJerkMagstd
+ Min.   :-0.9977
+ 1st Qu.:-0.9805 
+ Median :-0.8809
+ Mean   :-0.7550
+ 3rd Qu.:-0.5767
+ Max.   : 0.2502
+ 
+ fBodyAccstdX 
+ Min.   :-0.9966
+ 1st Qu.:-0.9820
+ Median :-0.7470
+ Mean   :-0.5522 
+ 3rd Qu.:-0.1966
+ Max.   : 0.6585
+ 
+ fBodyAccstdY
+ Min.   :-0.99068 
+ 1st Qu.:-0.94042
+ Median :-0.51338
+ Mean   :-0.48148
+ 3rd Qu.:-0.07913 
+ Max.   : 0.56019  
+ 
+ 
+ fBodyAccstdZ               
+ Min.   :-0.9872            
+ 1st Qu.:-0.9459             
+ Median :-0.6441             
+ Mean   :-0.5824             
+ 3rd Qu.:-0.2655           
+ Max.   : 0.6871          
+ 
+ fBodyAccJerkstdX 
+ Min.   :-0.9951 
+ 1st Qu.:-0.9847
+ Median :-0.8254
+ Mean   :-0.6121
+ 3rd Qu.:-0.2475
+ Max.   : 0.4768 
+ 
+ fBodyAccJerkstdY
+ Min.   :-0.9905
+ 1st Qu.:-0.9737
+ Median :-0.7852
+ Mean   :-0.5707
+ 3rd Qu.:-0.1685 
+ Max.   : 0.3498
+ 
+ fBodyAccJerkstdZ
+ Min.   :-0.993108 
+ 1st Qu.:-0.983747
+ Median :-0.895121
+ Mean   :-0.756489
+ 3rd Qu.:-0.543787 
+ Max.   :-0.006236  
+ 
+ fBodyGyrostdX 
+ Min.   :-0.9947
+ 1st Qu.:-0.9750 
+ Median :-0.8086 
+ Mean   :-0.7110 
+ 3rd Qu.:-0.4813 
+ Max.   : 0.1966 
+ 
+ fBodyGyrostdY              
+ Min.   :-0.9944                   
+ 1st Qu.:-0.9602                  
+ Median :-0.7964                    
+ Mean   :-0.6454                   
+ 3rd Qu.:-0.4154                   
+ Max.   : 0.6462                  
+ 
+ fBodyGyrostdZ 
+ Min.   :-0.9867
+ 1st Qu.:-0.9643
+ Median :-0.8224
+ Mean   :-0.6577
+ 3rd Qu.:-0.3916 
+ Max.   : 0.5225 
+ 
+ fBodyAccMagstd
+ Min.   :-0.9876
+ 1st Qu.:-0.9452  
+ Median :-0.6513
+ Mean   :-0.6210
+ 3rd Qu.:-0.3654 
+ Max.   : 0.1787  
+ 
+ fBodyBodyAccJerkMagstd
+ Min.   :-0.9944 
+ 1st Qu.:-0.9752
+ Median :-0.8126 
+ Mean   :-0.5992
+ 3rd Qu.:-0.2668
+ Max.   : 0.3163
+ 
+ fBodyBodyGyroMagstd
+ Min.   :-0.9815 
+ 1st Qu.:-0.9488 
+ Median :-0.7727
+ Mean   :-0.6723  
+ 3rd Qu.:-0.4277
+ Max.   : 0.2367
+ 
  fBodyBodyGyroJerkMagstd
  Min.   :-0.9976        
  1st Qu.:-0.9802        
