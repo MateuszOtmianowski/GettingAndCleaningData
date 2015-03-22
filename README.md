@@ -9,13 +9,13 @@ Next to the readme file that you are reading now you will find here:
 
 ##Purpose of the run_analysis R
 
-Aim of the run_analysis R code is to prepare tidy data set based on Human Activity Recognition Using Smartphones Data Set (see Code Book for more information about this data set). Tidy data is obtained by merging train and test data sets and averaging each variable for each activity and each subject.
+Aim of the run_analysis R code is to prepare tidy data set based on Human Activity Recognition Using Smartphones Data Set (see Code Book for more information about this data set). The tidy data is obtained by merging train and test data sets and averaging each variable for each activity and each subject.
 
 ##Instructions on the running run_analysis.R
 
 First of all the code is written in R language so you need to have it installed on your platform. RStudio is also recommended. It should be also noted that the code was written under Windows and it may not work properly on other platforms (the main concern beign file path structure).
 
-Having R installed in order to execute function properely following steps should be taken:
+Having R installed, in order to execute function properely, following steps should be taken:
 
 1. Download Human Activity Recognition Using Smartphones Data Set (it can be obtained from here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
@@ -25,7 +25,7 @@ Having R installed in order to execute function properely following steps should
 
 4. Run the code.
 
-Successful execution of the function should result in appearance of the TidyData.txt file in your working directory. You can read it into R by using read.table function with header=TRUE.
+Successful execution of the function should result in appearance of the TidyData.txt file in your working directory. You can read it into R by using read.table function with a header=TRUE.
 
 ##What exactly run_analysis code does
 
@@ -43,13 +43,13 @@ As it was stated previously the run_analysis code prepares tidy data set based o
 
 6. Merges test data frames into one data frame called "DataTrain".
 
-7. Merge test and train data sets into one data frame called "DataRaw"
+7. Merges test and train data sets into one data frame called "DataRaw"
 
-8. Searches for columns containing means, standard deviations, activity and subject and based on these columns creates new data frame called "DataFrame"
+8. Searches for columns containing means, standard deviations, activity and subject and based on these columns indices creates new data frame called "DataFrame"
 
 9. Loads activity labels from "activity_labels.txt".
 
-10. Adds activities names to the DataFrame based on labels
+10. Adds activities names to the DataFrame based on labels.
 
 11. Loads dplyr package and uses it to create new data frame called "Final" in which data is grouped by activity and subject, means of other variables for these groups are calculated.
 
