@@ -89,7 +89,7 @@ Number attached to each of a six activities.
 
 Integer variable, with values raging from 1 to 6.
 
-###Other Variables
+###other variables
 Other variables include means for mean and standard deviation sensor readings.
 
 These are numeric variables. They were normalized and bounded within [-1,1]. The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2) and the gyroscope units are rad/seg.
