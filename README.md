@@ -11,9 +11,9 @@ Next to the readme file that you are reading now you will find here:
 
 Aim of the run_analysis R code is to prepare tidy data set based on Human Activity Recognition Using Smartphones Data Set (see Code Book for more information about this data set). Tidy data is obtained by merging train and test data sets and averaging each variable for each activity and each subject.
 
-##Instructions to the running run_analysis.R
+##Instructions on the running run_analysis.R
 
-First of all the code is written in R language so you need to have it installed on your platform. RStudio is also recommended.
+First of all the code is written in R language so you need to have it installed on your platform. RStudio is also recommended. It should be also noted that the code was written under Windows and it may not work properly on other platforms (the main concern beign file path structure).
 
 Having R installed in order to execute function properely following steps should be taken:
 
